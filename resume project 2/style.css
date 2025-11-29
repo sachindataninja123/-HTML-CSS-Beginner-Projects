@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+}
+.container_1{
+    width:30%;
+    background-color: #2C3E50;
+    height: 1200px;
+}
+.container_2{
+    width:35%;
+    background-color: aqua;
+    height: 1200px;
+}
+.image{
+    width:330px;
+    height: 330px;
+    background-image: url(../image/data\ science.avif);
+    border-radius: 50%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.left_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     width: 80%;
+    margin:  70px auto;
+}
+.bio{
+    color: white;
+    margin-top: 80px;
+}
+.bio h1{
+    font-size: 40px;
+}
+.bio h2{
+    font-weight: 400;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.contact{
+    color: white;
+    margin-top: 70px;
+    gap:10px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+.contact h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.skills {
+    color:#fff;
+    margin-top: 70px;
+}
+.skills h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.skills ul li{
+    font-size: 19px;
+     padding-right: 130px;
+     gap:20px;
+}
+.skills ul{
+      padding-left: 25px;
+}
+.Language{
+    color:white;
+    margin-top: 70px;
+}
+.Language h2{
+    font-size: 35px;
+    padding-right: 150px;
+    margin-bottom: 10px;
+}
+.Language ul li{
+    font-size: 19px;
+     padding-right: 130px;
+     gap:20px;
+}
+.Language ul{
+    padding-left: 25px;
+    gap:15px;
+}
+.right_section{
+    width: 80%;
+    margin:  70px auto;
+}
+.profile h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.profile p{
+    font-size: 18px;
+}
+.work{
+    margin-top: 60px;
+}
+.work h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.work h3{
+     margin-bottom: 25px;
+     margin-top: 30px;
+     
+}
+.work p{
+     margin-bottom: 10px;
+     font-weight: 600;
+}
+.work ul{
+    padding-left: 20px;
+}
+.work ul li{
+    margin-top: 10px;
+}
+.education{
+    margin-top: 60px;
+}
+.education h2{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.education h3{
+      margin-bottom: 10px;
+      margin-top: 10px;
+}

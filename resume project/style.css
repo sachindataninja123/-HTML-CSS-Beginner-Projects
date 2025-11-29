@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 50px auto ;
+
+}
+.myinfo p {
+  font-size: 16px;
+  line-height: normal;
+  margin-top: 10px;
+}
+#r1 a {
+  text-decoration: none;
+  line-height: normal;
+}
+#r1 {
+  font-size: 16px;
+  padding-top: -10px;
+}
+.career ul li {
+  font-size: 16px;
+}
+.heading h2 {
+  background-color: rgb(35, 35, 63);
+  color: #fff;
+  width: 40%;
+  padding: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Academic table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.Academic table td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.Academic table th {
+  background-color: #f2f2f2;
+  font-size: large;
+  padding: 10px;
+  border: 1px solid black;
+}
+.Strength ul li {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.Skills ul li {
+  font-size: 16px;
+  margin-top: 10px;
+}
+#r2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.about_me p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.about_me {
+  margin-bottom: 10px;
+}
+.greet h1{
+    font-size: 50px;
+}

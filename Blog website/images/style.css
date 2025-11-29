@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-weight: 400;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  margin: 0px 100px;
+}
+.nav-right {
+  display: flex;
+  gap: 40px;
+}
+.nav-right p {
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  gap: 30px;
+}
+.logo i {
+  font-size: 19px;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 80px auto;
+  width: 70%;
+}
+.hero-image {
+  background-image: url(frnds\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 750px;
+  border-radius: 40px;
+}
+.hero-content h1 {
+  font-size: 80px;
+}
+.hero-content p {
+  font-size: 25px;
+}
+
+/* hero2 - image */
+.hero2-image {
+  background-image: url("second\ image\ 2.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 200px;
+}
+.hero2-section {
+  display: flex;
+  width: 75%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+}
+.hero2-content {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.hero2-content h2 {
+  margin-bottom: 20px;
+}
+.hero2-bottom {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* card design */
+.hero-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+}
+.card {
+  width: 370px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 10px gray;
+  margin-bottom: 20px;
+}
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+.card1-image {
+  background-image: url("card\ 1.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 370px;
+}
+.card-content {
+  margin: 30px;
+}
+.card-content h2 {
+  margin-bottom: 10px;
+}
+.card2-image {
+  background-image: url("card\ 2.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 370px;
+}
+.card3-image {
+  background-image: url("card\ 3.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 370px;
+}
+
+/* box style */
+.box-image {
+  background-image: url("coding\ image.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 400px;
+}
+.hero-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width:80%;
+  margin: auto;
+  gap:40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border:1px solid #ccc;
+  background-color: #e8e6e6;
+}
+.box-content h1{
+  font-size: 50px;
+  margin-left: 40px;
+}
+.box-content p{
+  margin: 40px;
+  font-size: 18px;
+}
+.hero2-bottom2{
+  margin: 30px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero2-bottom2 a{
+  margin-top: 7px;
+}
+
+/* btn design */
+.btn{
+  width: 80%;
+  margin:auto;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.btn button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(23, 108, 136);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn button:hover{
+  background-color: rgb(20, 47, 55);
+  transition: 0.3s ease-in-out;
+}
+
+/* footer */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:50px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  width:100%;
+}
+.footer-logo i{
+  margin-right: 40px;
+  font-size: 20px;
+}
+.footer-logo{
+  margin-right: 50px;
+}
+.footer-content{
+  margin-left: 120px;
+}
+.footer-content p{
+  font-size: 17px;
+}
